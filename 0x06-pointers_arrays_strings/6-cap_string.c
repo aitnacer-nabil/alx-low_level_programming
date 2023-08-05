@@ -2,12 +2,12 @@
 
 /**
  * cap_string -a function that capitalizes all words of a string.
- * @s : string
+ * @c : string
  *
- * Return: retun s
+ * Return: retun c
  */
 
-char *cap_string(char *s)
+char *cap_string(char *c)
 {
 	int i = 0;
 
