@@ -10,7 +10,7 @@ int main(void)
 {
     int sum;
 
-    sum = sum_them_all(2, 20, 30);
+    sum = sum_them_all(0, 20, 30);
     printf("%d\n", sum);
     sum = sum_them_all(4, 98, 1024, 402, -1024);
     printf("%d\n", sum);    
