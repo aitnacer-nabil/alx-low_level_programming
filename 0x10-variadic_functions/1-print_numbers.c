@@ -23,7 +23,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		i != (n - 1) ?
 		separator : "", va_arg(arg, int));
 	}
-	printf("\n");
+
 	va_end(arg);
+	printf("\n");
 
 }
